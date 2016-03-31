@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright 2009 Dan Morrill
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <string name="hello">Hello World, HealthMetrics</string>
+    <string name="app_name">Health Metrics</string>
+
+<string name="bp_error">Please enter numeric values for both systolic and diastolic.</string>
+<string name="systolic_label">Systolic (high number):</string>
+
+<string name="diastolic_label">Diastolic (low number):</string>
+<string name="bp_info">Take your blood pressure.  Enter the systolic and diastolic values for your blood pressure reading.</string>
+<string name="save_btn_label">Save</string>
+<string name="cancel_btn_label">Discard</string>
+<string name="bp_error_title">Incorrect Data</string>
+
+<string name="bp_dismiss">Okay</string>
+<string name="food_info">Choose whether to enter calories or diet points, and then enter the amount you ate. Click the button to compute a point value if you do not know it.</string>
+<string name="calories_label">How much did you eat?</string>
+<string name="points_radio_label">Points</string>
+<string name="compute_points_label">Compute Points</string>
+<string name="compute_points_dialog_title">Compute Diet Points</string>
+<string name="food_error">Please enter only numbers.</string>
+<string name="comp_pts_kcal">Calories:</string>
+<string name="comp_pts_fat">Grams of fat:</string>
+<string name="comp_pts_fiber">Grams of fiber:</string>
+<string name="comp_pts_info">Enter the caloric, fat, and fiber content of the food item you ate.</string>
+<string name="comp_pts_compute_button">Compute</string>
+<string name="weight_label">Weight:</string>
+<string name="weight_info">Enter your weight.</string>
+<string name="bp_title">Blood Pressure</string>
+<string name="bp_save_info">The current time will be recorded with your data when you press Save.</string>
+<string name="food_title">Food Eaten</string>
+<string name="calories_radio_label">Calories</string>
+<string name="weight_title">Weight Tracker</string>
+<string name="eula_title">License Agreements</string>
+<string name="eula_dismiss_button">Dismiss</string>
+<string name="eula_body">"This application is for entertainment and informational purposes only. Consult your doctor or other health care provider before entering into any diet or fitness regimen.\n\nThis software is open-source software, licensed according to the terms of the Apache Software License 2.0. You must agree to those terms before using this software. You can find the terms at http://www.apache.org/licenses/LICENSE-2.0</string>
+<string name="weight_error">Please enter only a whole number for your weight.</string>
+</resources>

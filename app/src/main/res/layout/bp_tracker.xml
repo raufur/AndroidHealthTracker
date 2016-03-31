@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright 2009 Dan Morrill
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="4dip"
+    >
+<ScrollView
+    android:layout_height="0dip"
+    android:layout_weight="2"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView
+    android:id="@+id/heart_bot"
+    android:src="@drawable/heart_bot"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    />
+<TextView
+    android:text="@string/bp_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="28sp"
+    android:textColor="#999"
+    android:layout_toRightOf="@id/heart_bot"
+    android:layout_alignBottom="@id/heart_bot"
+    />
+    <TextView
+    android:text="@string/bp_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="28sp"
+    android:textColor="#999"
+    android:layout_toRightOf="@id/heart_bot"
+        android:layout_align="@id/heart_bot"
+    />
+<TextView
+    android:id="@+id/bp_desc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/bp_info"
+    android:textColor="#fff"
+    android:textSize="14sp"
+    android:paddingTop="2dip"
+    android:layout_below="@id/heart_bot"
+    />
+<View
+    android:id="@+id/div0"
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:layout_below="@id/bp_desc"
+    android:background="?android:attr/listDivider"
+    />
+<EditText
+    android:id="@+id/systolic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:background="@android:drawable/editbox_background"
+    android:layout_below="@id/div0"
+    />
+<TextView
+    android:text="@string/systolic_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignBaseline="@id/systolic"
+    />
+<View
+    android:id="@+id/div1"
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:layout_marginTop="4dip"
+    android:layout_marginBottom="4dip"
+    android:background="?android:attr/listDivider"
+    android:layout_below="@id/systolic"
+    />
+<EditText
+    android:id="@+id/diastolic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@id/systolic"
+    android:layout_alignLeft="@id/systolic"
+    android:background="@android:drawable/editbox_background"
+    android:layout_below="@id/div1"
+    />
+<TextView
+    android:text="@string/diastolic_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignBaseline="@id/diastolic"
+    />
+<View
+    android:id="@+id/div2"
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:layout_marginTop="4dip"
+    android:layout_marginBottom="4dip"
+    android:background="?android:attr/listDivider"
+    android:layout_below="@id/diastolic"
+    />
+<TextView
+    android:layout_below="@id/div2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/bp_save_info"
+    android:textColor="#fff"
+    android:textSize="14sp"
+    />
+</RelativeLayout>
+</ScrollView>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    style="@style/ButtonBarz">    
+<Button
+    android:id="@+id/save_button"
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="@string/save_btn_label"
+    />
+<Button
+    android:id="@+id/cancel_button"
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="@string/cancel_btn_label"
+    />
+</LinearLayout>
+</LinearLayout>
